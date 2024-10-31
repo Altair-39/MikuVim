@@ -30,7 +30,7 @@ local default_plugins = {
 
   require('plugins.configs.mason'),
 
-  require('plugins.configs.blink'),
+  require('plugins.configs.cmp'),
 
   require('plugins.configs.comment'),
 
@@ -77,6 +77,8 @@ local default_plugins = {
   require('plugins.configs.rustaceanvim'),
 
   require('plugins.configs.rust'),
+
+  require('plugins.configs.jdtls'),
 
 }
 
